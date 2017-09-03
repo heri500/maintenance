@@ -1,0 +1,22 @@
+<?php
+/**
+ * @file
+ * Install file for ikhwan core module.
+ */
+/**
+ * Implements hook_install().
+ * - Add the body field.
+ */
+
+function maintenance_core_install() {
+    drupal_set_message("Maintenance Core Module successfully installed");
+}
+function maintenance_core_uninstall() {
+    drupal_set_message("Maintenance Core successfully removed");
+}
+function maintenance_core_enable() {
+    drupal_set_message("Maintenance Core Module successfully enabled");
+}
+function maintenance_core_disable() {
+    drupal_set_message("Maintenance Core Module successfully disabled");
+}

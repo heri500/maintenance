@@ -1,0 +1,41 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+/**
+ * @return mixed
+ */
+function maintenance_core_menu() {
+    $items['coremodule'] = array(
+        'title' => 'Maintenance Core Module',
+        'description' => 'Maintenance core module.',
+        'page callback' => 'maintenance_ikhwan',
+        'access arguments' => array('access maintenance core module'),
+    );
+    return $items;
+}
+
+/**
+ * @return array
+ */
+function maintenance_core_permission() {
+    return array(
+        'access maintenance core module' => array(
+            'title' => t('access maintenance'),
+            'description' => t('enable to get access for maintenance core module.'),
+        ),
+        'access input data maintenance' => array(
+            'title' => t('access input data maintenance'),
+            'description' => t('enable to get access for input data maintenance.'),
+        ),
+    );
+}
+
+require_once 'ikhwan_core_function.api.php';
+require_once 'maintenance_core.api.php';
+require_once 'maintenance_core.form.api.php';
+
+/**
+ * @return string
+ */
+function maintenance_ikhwan(){
+    return 'Maintenance Core Module';
+}
