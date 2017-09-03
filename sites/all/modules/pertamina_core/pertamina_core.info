@@ -1,0 +1,11 @@
+name = Pertamina Core Module
+version = 7.01
+description = core module for pertamina system.
+core = 7.x
+package = Pom Bensin Ikhwan
+dependencies[] = views
+dependencies[] = view_function
+dependencies[] = references
+dependencies[] = libraries (>=2.0)
+files[] = pertamina_core.module
+files[] = pertamina_core.install

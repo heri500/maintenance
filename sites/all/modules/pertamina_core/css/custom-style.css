@@ -1,0 +1,130 @@
+.main-chart{
+    background: url("/sites/default/files/corporate2.png") no-repeat center;
+}
+.input-date{
+    width: 90px !important;
+    float: left !important;
+    margin-right: 10px !important;
+}
+.number-col{
+    width: 50px !important;
+}
+.premis-name{
+    width: 250px !important;
+}
+.number-cell{
+    text-align: right !important;
+}
+.bolder{
+    font-weight: bold !important;
+}
+.amount-col{
+    width: 100px !important;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.align-right{
+    text-align: right !important;
+}
+.align-center{
+    text-align: center !important;
+}
+tspan.title{
+    font-weight: bold;
+    font-size: 130%;
+}
+.grand-total{
+    font-weight: bold;
+    font-size: 110%;
+    text-align: center;
+}
+th.center, td.center{
+    text-align: center !important;
+}
+.bolder{
+    font-weight: bolder !important;
+}
+.form-control.nomer{
+    width: auto !important;
+}
+.col-number{
+    width: 60px !important;
+}
+input.col-number{
+    text-align: right !important;
+}
+.col-input-number{
+    width: 150px !important;
+}
+.col-input-number-small{
+    width: 90px !important;
+}
+.col-input-number-middle{
+    width: 110px !important;
+}
+.col-total-number{
+    width: 220px !important;
+}
+.col-title{
+    width: 200px !important;
+}
+.col-title-wide{
+    width: 250px !important;
+}
+table div.form-item{
+    margin-bottom: 0!important;
+}
+td.category-oh{
+    background-color: #3bbcf6;
+}
+tr.new-row{
+    background-color: #e6f8e0 !important;
+}
+tr.old-row{
+    background-color: #FAFAFA !important;
+}
+.table-small-pad > tbody > tr > td,
+.table-small-pad > tbody > tr > th,
+.table-small-pad > tfoot > tr > td,
+.table-small-pad > tfoot > tr > th,
+.table-small-pad > thead > tr > td,
+.table-small-pad > thead > tr > th{
+    padding: 1px 5px !important;
+}
+.form-control{
+    height: 24px !important;
+}
+.table-small-pad label{
+    margin-bottom: 0 !important;
+}
+.category-title label{
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px #000000;
+}
+.category-oh{
+    border-color: #3bbcf6 !important;
+    box-shadow: 0 1px 0 0 #555;
+}
+th{
+    vertical-align: middle !important;
+}
+.form-inline label, .form-inline input, .form-inline select, .form-inline .select2-container{
+    margin: 0 10px 0 0 !important;
+}
+.form-inline div .form-item{
+    margin-bottom: 10px !important;
+}
+.main-chart{
+    background: url("/sites/default/files/corporate2.png") no-repeat center;
+}
+.highcharts-title{
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #aaa;
+}
+.blue{
+    color: #0000AA;
+}

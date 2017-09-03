@@ -1,0 +1,6 @@
+name = View function
+description = "Module for accessing view from file"
+version = 7.0
+core = 7.x
+dependencies[] = views
+files[] = view_function.module

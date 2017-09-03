@@ -1,0 +1,22 @@
+<?php
+/**
+ * @file
+ * Install file for ikhwan core module.
+ */
+/**
+ * Implements hook_install().
+ * - Add the body field.
+ */
+
+function pertamina_core_install() {
+    drupal_set_message("Pertamina Core Module successfully installed");
+}
+function pertamina_core_uninstall() {
+    drupal_set_message("Pertamina Core successfully removed");
+}
+function pertamina_core_enable() {
+    drupal_set_message("Pertamina Core Module successfully enabled");
+}
+function pertamina_core_disable() {
+    drupal_set_message("Pertamina Core Module successfully disabled");
+}

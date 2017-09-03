@@ -1,0 +1,6 @@
+name = Form Table
+description = Form Table Example.
+version = 7.0
+core = 7.x
+package = Other
+files[] = formtable.module
